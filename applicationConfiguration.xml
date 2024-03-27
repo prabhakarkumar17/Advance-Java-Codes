@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean class="pojo.Employee" id="emp1">
+    	<property name="name" value="Prabhakar"></property>
+    	<property name="salary" value="20000"></property>
+    	<property name="empId" value="311626"></property>
+    </bean>
+    
+    <bean class="pojo.Employee" id="emp2">
+    	<property name="name" value="Yaman"></property>
+    	<property name="salary" value="15000"></property>
+    	<property name="empId" value="541789"></property>
+    </bean>
+
+</beans>
